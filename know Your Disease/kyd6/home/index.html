@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>KYD</title>
+<meta charset="utf-8">
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slider.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/tms-0.4.1.js"></script>
+<script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script>
+$(window).load(function () {
+    $('.slider')._TMS({
+        show: 0,
+        pauseOnHover: false,
+        prevBu: '.prev',
+        nextBu: '.next',
+        playBu: false,
+        duration: 800,
+        preset: 'fade',
+        easing: 'easeOutQuad',
+        pagination: true, //'.pagination',true,'<ul></ul>'
+        pagNums: false,
+        slideshow: 8000,
+        numStatus: false,
+        banners: 'fade',
+        waitBannerAnimation: false,
+        progressBar: false
+    })
+});
+$(window).load(
+    function () {
+        $('.carousel1').carouFredSel({
+            auto: false,
+            prev: '.prev1',
+            next: '.next1',
+            width: 960,
+            items: {
+                visible: {
+                    min: 4,
+                    max: 4
+                },
+            },
+            responsive: false,
+            scroll: 1,
+            mousewheel: false,
+            swipe: {
+                onMouse: false,
+                onTouch: false
+            }
+        });
+    });
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<header>
+  <div class="container_12">
+    <div class="grid_12">
+      <h1><a href="index.html"><span style=" font-size: 50pt">K Y D </span></h1><<br><br>
+	       <h1><a href="index.html"><span style=" color:white;font-size: 25pt">KNOW YOUR DISEASE </span></h1>
+	  
+    </div>
+  </div>
+  <nav>
+    <div align="center" class="container_30">
+      <div class="grid_30">
+        <ul class="sf-menu">
+          <li class="current"><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a>
+            <ul>
+              <li><a href="#">OUR HISTORY</a></li>
+              <li><a href="#">OUR TEAM</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </li>
+		  
+		  
+          <li><a href="projects.html">PROJECTS</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="contact.html">CONTACTS</a></li>
+		  
+		   <li><a href="#">Login</a>
+            <ul>
+              <li><a href="../doctor/login1.php">As A DOCTOR</a></li>
+              <li><a href="../patient/login1.php">AS A PATIENT</a></li>
+             
+            </ul>
+          </li>
+
+		  <li><a href="#">REGISTER</a>
+            <ul>
+             <li><a href="../doctor/register.html">As A DOCTOR</a></li>
+              <li><a href="../doctor/register.html">AS A PATIENT</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div id="content">
+  <div class="slider-relative">
+    <div class="slider-block">
+      <div class="slider">
+        <ul class="items">
+          <li><img src="images/slider-1.jpg" alt="">
+            <div class="banner">Our Customers are Our Priority</div>
+          </li>
+          <li><img src="images/slider-2.jpg" alt="">
+            <div class="banner">Creative Problem-Solving</div>
+          </li>
+          <li><img src="images/slider-3.jpg" alt="">
+            <div class="banner">Imagination is Our Power</div>
+          </li>
+          <li><img src="images/slider-4.jpg" alt="">
+            <div class="banner">The World of Opportunities</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container_12">
+
+  <div class="bg-1">
+    <div class="container_12">
+      <div class="grid_12">
+        <div class="carousel"> <a href="#" class="prev1"></a><a href="#" class="next1"></a>
+          <div class="carousel_div">
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+     
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container_12">
+    <div class="grid_8"> <span>BiZZ &copy; 2045 | Privacy Policy | Design by <a href="http://www.templatemonster.com/">TemplateMonster.com</a></span> </div>
+    <div class="grid_4">
+      <ul class="soc-icon">
+        <li><a href="#"><img src="images/icon-3.png" alt=""></a></li>
+        <li><a href="#"><img src="images/icon-2.png" alt=""></a></li>
+        <li><a href="#"><img src="images/icon-1.png" alt=""></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
